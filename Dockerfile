@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:lts-bullseye-slim
 
 RUN mkdir /data
 
