@@ -1,0 +1,61 @@
+// app global css in SCSS form
+.body--dark {
+    --q-primary : #6287C3; //#7198be
+    --q-secondary : #515151;
+    --q-accent : #A1543B;
+    --q-positive : #1a7a30;
+    --q-negative : #D93025;//#7a2b34 #850b19
+    --q-info : #103e47;
+    --q-warning : #946204;
+    --q-dark : #1d1d1d;
+    --q-textcolor : #FFFFFF;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: var(--q-secondary);//#3a4149
+    overflow: auto;
+    //background-color: rgba(0,0,0,0.02);
+    color: #555;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    // background-color: rgba(255, 255, 255, .3);
+    background-color: #a1a1a1;//#eee
+    color: black;
+    right: 2px;
+    border-radius: 5px;
+    width: 5px;
+    opacity: 0.75
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .5);
+    // background-color: #027be3;
+    background-color: var(--q-primary);
+}
+
+// .body--dark ::-webkit-scrollbar {
+//   width: 10px;
+//   //background: #424242;//#3a4149
+//   overflow: auto;
+//   background-color: rgba(0,0,0,0.02);
+//   color: #555;
+// }
+
+// .body--dark ::-webkit-scrollbar-thumb {
+//   width: 10px;
+//   // background-color: rgba(255, 255, 255, .3);
+//   background-color: #eee;
+//   color: black;
+//   right: 2px;
+//   border-radius: 5px;
+//   width: 5px;
+//   opacity: 0.75
+// }
+
+// .body--dark ::-webkit-scrollbar-thumb:hover {
+//   //background: rgba(255, 255, 255, .5);
+//   background-color: var(--q-primary);
+// }
