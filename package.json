@@ -38,7 +38,7 @@
     "quasar": "^2.7.5",
     "vue": "3",
     "vue-apexcharts": "^1.6.2",
-    "vue-i18n": "^9.0.0",
+    "vue-i18n": "^9.6.0",
     "vue-router": "4",
     "vue2-frappe": "^1.2.3",
     "vue2-leaflet-fullscreen": "^1.0.1",
